@@ -1,0 +1,20 @@
+html {
+  background: rgb(216, 236, 238);
+}
+
+#flex-container {
+  width: 75vw;
+  height: auto;
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flex-item {
+  width: 250px;
+  height: 250px;
+  background-color: seashell;
+  border: 1px solid black;
+}
